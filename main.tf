@@ -36,7 +36,8 @@ resource "aws_instance" "myec2" {
 
   vpc_security_group_ids=[aws_security_group.web-sg.id]
 
-  key_name="tf-key-pair"  tags={
+  key_name="tf-key-pair" 
+tags={
 
  Name="web-server"
 
