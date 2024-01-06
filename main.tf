@@ -75,7 +75,8 @@ protocol="tcp"
 
 cidr_blocks= ["0.0.0.0/0"]
 
-}  ingress {
+}  
+ingress {
 
  from_port=22
 
